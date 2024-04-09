@@ -48,4 +48,6 @@
     </string>
     <string name="player1">Player1</string>
     <string name="player2">Player2</string>
+    <string name="first_playerName">First Player:</string>
+    <string name="second_playername">Second Player:</string>
 </resources>
