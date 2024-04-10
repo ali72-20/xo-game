@@ -88,25 +88,34 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/cell_11"
+                android:tag="0"
+                android:id="@+id/cell0"
                 android:backgroundTint="@color/black"
                 app:cornerRadius="0dp"
+                android:textColor="@color/white"
+                android:textSize="40sp"
                 />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/cell_12"
+                android:tag="1"
+                android:id="@+id/cell1"
                 android:backgroundTint="@color/black"
                 android:layout_marginStart="16dp"
                 app:cornerRadius="0dp"
+                android:textColor="@color/white"
+                android:textSize="40sp"
                 />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/cell_13"
+                android:id="@+id/cell2"
+                android:tag="2"
                 android:backgroundTint="@color/black"
                 android:layout_marginStart="16dp"
                 app:cornerRadius="0dp"
+                android:textColor="@color/white"
+                android:textSize="40sp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -119,25 +128,34 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/cell_21"
+                android:id="@+id/cell3"
+                android:tag="3"
                 android:backgroundTint="@color/black"
                 app:cornerRadius="0dp"
+                android:textColor="@color/white"
+                android:textSize="40sp"
                 />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/cell_22"
+                android:id="@+id/cell4"
+                android:tag="4"
                 android:backgroundTint="@color/black"
                 android:layout_marginStart="16dp"
                 app:cornerRadius="0dp"
+                android:textColor="@color/white"
+                android:textSize="40sp"
                 />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/cell_23"
+                android:id="@+id/cell5"
+                android:tag="5"
                 android:backgroundTint="@color/black"
                 android:layout_marginStart="16dp"
                 app:cornerRadius="0dp"
+                android:textColor="@color/white"
+                android:textSize="40sp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -150,25 +168,34 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/cell_31"
+                android:id="@+id/cell6"
+                android:tag="6"
                 android:backgroundTint="@color/black"
                 app:cornerRadius="0dp"
+                android:textColor="@color/white"
+                android:textSize="40sp"
                 />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/cell_32"
+                android:id="@+id/cell7"
                 android:backgroundTint="@color/black"
                 android:layout_marginStart="16dp"
                 app:cornerRadius="0dp"
+                android:tag="7"
+                android:textColor="@color/white"
+                android:textSize="40sp"
                 />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/cell_33"
+                android:id="@+id/cell8"
                 android:backgroundTint="@color/black"
                 android:layout_marginStart="16dp"
                 app:cornerRadius="0dp"
+                android:tag="8"
+                android:textColor="@color/white"
+                android:textSize="40sp"
                 />
         </LinearLayout>
     </LinearLayout>
