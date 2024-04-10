@@ -78,7 +78,7 @@ class GameActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     private fun pressButton(button: Button) {
         if(button.text.toString() == "X" || button.text.toString() == "O"){
-            Toast.makeText(this,"In valid  cell",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"In valid cell",Toast.LENGTH_SHORT).show()
             return
         }
         fieldsUsed++
@@ -186,8 +186,4 @@ class GameActivity : AppCompatActivity() {
         finish()
         return super.onSupportNavigateUp()
     }
-}
-
-private fun AlertDialog.Builder.setPositiveButton(s: String, function: () -> Unit) {
-
 }
