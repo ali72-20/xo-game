@@ -113,6 +113,22 @@ class GameActivity : AppCompatActivity() {
         currentPlayer = if(currentPlayer == name1) name2
         else name1
         if(fieldsUsed == 9){
+            if(checkGameState(FeasibleState.PLAYER_ONE)){
+                bulider.setTitle("$name1 is Winner").setPositiveButton("Ok"){dialog, wich->
+                    finish()
+                }
+                val dialog : AlertDialog = bulider.create()
+                dialog.show()
+                return
+            }
+            if(checkGameState(FeasibleState.PLAYER_TWO)){
+                bulider.setTitle("$name2 is Winner").setPositiveButton("Ok"){dialog, wich->
+                    finish()
+                }
+                val dialog : AlertDialog = bulider.create()
+                dialog.show()
+                return
+            }
             bulider.setTitle("Game is Draw").setPositiveButton("Ok"){dialog, wich->
                 finish()
             }
