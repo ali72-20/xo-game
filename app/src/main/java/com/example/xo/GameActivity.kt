@@ -35,8 +35,6 @@ class GameActivity : AppCompatActivity() {
         viewBinding = ActivityGameBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
         setSupportActionBar(viewBinding.appBarTil.toolBar)
-
-
         initView()
 
     }
@@ -79,6 +77,10 @@ class GameActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     private fun pressButton(button: Button) {
+        if(button.text.toString() == "X" || button.text.toString() == "O"){
+            Toast.makeText(this,"In valid  cell",Toast.LENGTH_SHORT).show()
+            return
+        }
         fieldsUsed++
         viewBinding.turn.text = "$currentPlayer $turn"
            button.setText(turn)
